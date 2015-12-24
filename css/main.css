@@ -216,7 +216,8 @@
 
 #sponsors {
   background-color: white;
-  padding-top: 1em; }
+  padding-top: 1em;
+  overflow: hidden; }
   #sponsors h3 {
     font-size: 3.2rem;
     text-align: center;
