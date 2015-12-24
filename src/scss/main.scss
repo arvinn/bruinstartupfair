@@ -1,0 +1,504 @@
+// Fonts
+@import url('//fonts.googleapis.com/css?family=Montserrat');
+
+
+// Mixins
+@mixin prefix($property, $value, $vendors: webkit moz ms o) {
+      @if $vendors {
+        @each $vendor in $vendors {
+          #{"-" + $vendor + "-" + $property}: #{$value};
+        }
+      }
+      #{$property}: #{$value};
+}
+
+// Variables
+$bfs-blue: #6199D1;
+$bfs-font-stack: Montserrat, sans-serif;
+
+
+// Topbar for desktop
+.top-bar {
+  background-color: $bfs-blue;
+  text-transform: uppercase;
+  color: white;
+
+  & ul {
+    background-color: $bfs-blue;
+  }
+
+  a {
+    color: white;
+  }
+
+  .top-bar-left {
+    img {
+      background-color: white;
+      height: 40px;
+      margin-left: 0.1em;
+    }
+  }
+
+  .top-bar-right {
+    margin-right: 20px;
+  }
+}
+
+.navbar-sign-up {
+  border: solid white 1.5px;
+  border-radius: 12px;
+}
+
+// Titlebar for mobile
+.title-bar {
+  background-color: $bfs-blue;
+
+  a {
+    color: white;
+  }
+
+  img {
+    height: 30px;
+    background-color: white;
+  }
+
+  .menu-button {
+    display: inline-block;
+    height: 100%;
+  }
+
+  .menu {
+    display: inline-block;
+    float: right;
+  }
+
+  .navbar-sign-up {
+    padding: 5px 15px;
+    border: solid white 1.5px;
+    border-radius: 12px;
+    box-sizing: border-box;
+  }
+}
+
+
+
+// Header
+.header {
+  background: 
+              linear-gradient(
+                rgba(178, 178, 178, .5),
+                rgba(178, 178, 178, .5) 
+              ),
+              url('../img/background.jpg')
+              bottom center / cover
+              no-repeat
+              padding-box
+              content-box;
+  overflow: hidden;
+  position: relative;
+
+
+  h1 {
+    padding-top: 1em;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-family: $bfs-font-stack;
+
+    text-shadow: 1px 0 white; // make font thicker
+  }
+
+  h2 {
+    font-family: $bfs-font-stack;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: white;
+    display: inline-block;
+  }
+
+  h3 {
+    padding-top: 2em;
+    font-family: $bfs-font-stack;
+    font-weight: 700;
+    font-size: 1.0em;
+    color: white;
+  }
+
+  .register {
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+    div {
+      vertical-align: middle;
+      color: white;
+      height: 100%;
+    }
+
+    label {
+      vertical-align: middle;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      color: white;
+    }
+
+    input[type=email] {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      border-radius: 12px;
+      display: inline-block;
+
+      &::placeholder {
+        font-size: 0.7em;
+      }
+    }
+
+    .show-for-small-only input::placeholder{
+      text-align: center;
+    }
+
+    button {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      width: 100%;
+      border-radius: 12px;
+      background-color: $bfs-blue;
+    }
+  }
+
+  // Mobile
+  @media only screen and (max-width: 40em) {
+    height: 80%;
+
+    h1 {
+      font-size: 1.8em;
+      line-height: 1.0em;
+    }
+
+    h2 {
+      font-size: 95%;
+
+      // Mimick hr tag on mobile
+      padding-bottom: 1em;
+      border-bottom: solid white 2px;
+    }
+
+    h3 {
+      padding: 0.1em 0.5em;
+    }
+
+    .register {
+    }
+  }
+
+  // Desktop
+  @media only screen and (min-width: 40em) {
+    min-height: 450px;
+    h1 {
+      font-size: 3.2em;
+    }
+
+    .register {
+      background-color: rgba(77, 77, 77, 0.7);
+      height: 60px;
+      line-height: 60px;
+    }
+  }
+}
+
+
+#about {
+  background-color: white;
+  padding-bottom: 3em;
+
+  .attending {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    height: 7rem;
+    position: relative;
+
+    .numbers {
+      display: inline-block;
+      width: 30%;
+      min-width: 150px;
+      position: relative;
+
+      .wrapper {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+      }
+
+      span {
+        display: block;
+
+      }
+
+      .number {
+        font-size: 40px;
+      }
+    }
+
+    .companies span {
+    }
+
+    .vertical-divider {
+      border-left: 1px solid gray;
+      border-right: 1px solid light-gray;
+      top: 15%;
+      height: 70%;
+      position: absolute;
+    }
+  }
+
+  h3 {
+    font-size: 51px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  p {
+    text-align: justify;
+    max-width: 920px;
+    margin: 0 auto;
+  }
+}
+
+
+
+#clubs {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+
+#circles {
+  color: white;
+  background-color: $bfs-blue;
+  padding: 0;
+  font-family: $bfs-font-stack;
+
+  .columns {
+    margin: 0;
+  }
+
+  h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 1em;
+  }
+
+  p {
+    font-weight: bold;
+    font-size: 0.98rem;
+  }
+
+  .img {
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -0.2em;
+  }
+
+  #sign-up {
+    background: url('../img/sign-up.png')
+                bottom center / cover
+                no-repeat
+                padding-box
+                content-box;
+  }
+
+  #network-icon {
+    background: url('../img/network.png')
+                bottom center / cover
+                no-repeat
+                padding-box
+                content-box;
+  }
+
+  #grow-icon {
+    background: url('../img/grow.png')
+                bottom center / cover
+                no-repeat
+                padding-box
+                content-box;
+  }
+
+  // Mobile
+  @media only screen and (max-width: 40em) {
+    // Only do the circle border of the first icon if on mobile because icons stack
+    #sign-up {
+      box-shadow: 0px 0px 0px 35px $bfs-blue;
+    }
+
+    h4 {
+      margin: 0;
+      padding: 0;
+    }
+
+    p {
+      margin-bottom: 2em;
+    }
+  }
+
+  // Desktop
+  @media only screen and (min-width: 40em) {
+    .img {
+      box-shadow: 0px 0px 0px 35px $bfs-blue;
+    }
+  }
+}
+
+
+
+#sponsors {
+  background-color: white;
+  padding-top: 1em;
+
+  h3 {
+    font-size: 3.2rem;   //~51px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .instructions {
+    padding-bottom: 1em;
+    p {
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: 0;
+    }
+  }
+
+  .logos {
+    text-align: center;
+
+    // Mobile
+    @media only screen and (max-width: 40em) {
+      padding: 0;
+
+      .logo {
+        width: 15%;
+        margin: 5px 10px 15px 10px;
+        justify-content: space-around;
+      }
+    }
+
+    // Desktop
+    @media only screen and (min-width: 40em) {
+      .logo {
+        margin: 5px 40px 15px 40px;
+        justify-content: space-around;
+      }
+    }
+  }
+}
+
+
+.modal {
+  .title{
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  img {
+    margin: 0 auto;
+    max-height: 65px;
+  }
+  h3 {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 2em;
+  }
+  h4 {
+    padding-top: 1.5em;
+    padding-bottom: 0.1em;
+    text-align: center;
+    font-family: Montserrat;
+  }
+  h5 {
+    font-family: Montserrat;
+  }
+
+  .description {
+    text-align: justify;
+    padding: 0 0.1em;
+    font-family: Montserrat;
+    font-size: 0.8em;
+  }
+
+  .detail {
+    padding-left: 2em;
+    font-size: 0.8em;
+  }
+
+  hr:last-of-type {
+    display: none;
+  }
+}
+
+
+body {
+  background-color: $bfs-blue;
+  font-family: $bfs-font-stack;
+}
+
+
+
+
+// Footer
+.footer {
+  background-color: $bfs-blue;
+  color: white;
+  font-weight: 700;
+
+  @media only screen and (max-width: 40em) {
+    padding-top: 1em;
+    font-size: 0.8em;
+    
+    .social-media {
+      margin-top: 1em;
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 0.2em;
+  }
+  a {
+    color: white;
+  }
+
+  p {
+    text-align: center;
+    margin-bottom: 0.2em;
+  }
+}
+
+.social-icons {
+  text-align: center;
+  .social-icon {
+    fill: white;
+    height: 1.5em;
+    width: 1.5em;
+    margin: 0em 1em;
+  }
+}
+
+
