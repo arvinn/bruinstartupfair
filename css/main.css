@@ -1,0 +1,321 @@
+@import url("//fonts.googleapis.com/css?family=Montserrat");
+.top-bar {
+  background-color: #6199D1;
+  text-transform: uppercase;
+  color: white; }
+  .top-bar ul {
+    background-color: #6199D1; }
+  .top-bar a {
+    color: white; }
+  .top-bar .top-bar-left img {
+    background-color: white;
+    height: 40px;
+    margin-left: 0.1em; }
+  .top-bar .top-bar-right {
+    margin-right: 20px; }
+
+.navbar-sign-up {
+  border: solid white 1.5px;
+  border-radius: 12px; }
+
+.title-bar {
+  background-color: #6199D1; }
+  .title-bar a {
+    color: white; }
+  .title-bar img {
+    height: 30px;
+    background-color: white; }
+  .title-bar .menu-button {
+    display: inline-block;
+    height: 100%; }
+  .title-bar .menu {
+    display: inline-block;
+    float: right; }
+  .title-bar .navbar-sign-up {
+    padding: 5px 15px;
+    border: solid white 1.5px;
+    border-radius: 12px;
+    box-sizing: border-box; }
+
+.header {
+  background: linear-gradient(rgba(178, 178, 178, 0.5), rgba(178, 178, 178, 0.5)), url("../img/background.jpg") bottom center/cover no-repeat padding-box content-box;
+  overflow: hidden;
+  position: relative; }
+  .header h1 {
+    padding-top: 1em;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    text-shadow: 1px 0 white; }
+  .header h2 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: white;
+    display: inline-block; }
+  .header h3 {
+    padding-top: 2em;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 1.0em;
+    color: white; }
+  .header .register {
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0; }
+    .header .register div {
+      vertical-align: middle;
+      color: white;
+      height: 100%; }
+    .header .register label {
+      vertical-align: middle;
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+      color: white; }
+    .header .register input[type=email] {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      border-radius: 12px;
+      display: inline-block; }
+      .header .register input[type=email]::-webkit-input-placeholder {
+        font-size: 0.7em; }
+      .header .register input[type=email]::-moz-placeholder {
+        font-size: 0.7em; }
+      .header .register input[type=email]:-ms-input-placeholder {
+        font-size: 0.7em; }
+      .header .register input[type=email]::placeholder {
+        font-size: 0.7em; }
+    .header .register .show-for-small-only input::-webkit-input-placeholder {
+      text-align: center; }
+    .header .register .show-for-small-only input::-moz-placeholder {
+      text-align: center; }
+    .header .register .show-for-small-only input:-ms-input-placeholder {
+      text-align: center; }
+    .header .register .show-for-small-only input::placeholder {
+      text-align: center; }
+    .header .register button {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      width: 100%;
+      border-radius: 12px;
+      background-color: #6199D1; }
+  @media only screen and (max-width: 40em) {
+    .header {
+      height: 80%; }
+      .header h1 {
+        font-size: 1.8em;
+        line-height: 1.0em; }
+      .header h2 {
+        font-size: 95%;
+        padding-bottom: 1em;
+        border-bottom: solid white 2px; }
+      .header h3 {
+        padding: 0.1em 0.5em; } }
+  @media only screen and (min-width: 40em) {
+    .header {
+      min-height: 450px; }
+      .header h1 {
+        font-size: 3.2em; }
+      .header .register {
+        background-color: rgba(77, 77, 77, 0.7);
+        height: 60px;
+        line-height: 60px; } }
+
+#about {
+  background-color: white;
+  padding-bottom: 3em; }
+  #about .attending {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: auto;
+    height: 7rem;
+    position: relative; }
+    #about .attending .numbers {
+      display: inline-block;
+      width: 30%;
+      min-width: 150px;
+      position: relative; }
+      #about .attending .numbers .wrapper {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+        display: inline-block;
+        width: 100%;
+        text-align: center; }
+      #about .attending .numbers span {
+        display: block; }
+      #about .attending .numbers .number {
+        font-size: 40px; }
+    #about .attending .vertical-divider {
+      border-left: 1px solid gray;
+      border-right: 1px solid light-gray;
+      top: 15%;
+      height: 70%;
+      position: absolute; }
+  #about h3 {
+    font-size: 51px;
+    text-align: center;
+    font-weight: bold; }
+  #about p {
+    text-align: justify;
+    max-width: 920px;
+    margin: 0 auto; }
+
+#clubs {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+#circles {
+  color: white;
+  background-color: #6199D1;
+  padding: 0;
+  font-family: Montserrat, sans-serif; }
+  #circles .columns {
+    margin: 0; }
+  #circles h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 1em; }
+  #circles p {
+    font-weight: bold;
+    font-size: 0.98rem; }
+  #circles .img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -0.2em; }
+  #circles #sign-up {
+    background: url("../img/sign-up.png") bottom center/cover no-repeat padding-box content-box; }
+  #circles #network-icon {
+    background: url("../img/network.png") bottom center/cover no-repeat padding-box content-box; }
+  #circles #grow-icon {
+    background: url("../img/grow.png") bottom center/cover no-repeat padding-box content-box; }
+  @media only screen and (max-width: 40em) {
+    #circles #sign-up {
+      box-shadow: 0px 0px 0px 35px #6199D1; }
+    #circles h4 {
+      margin: 0;
+      padding: 0; }
+    #circles p {
+      margin-bottom: 2em; } }
+  @media only screen and (min-width: 40em) {
+    #circles .img {
+      box-shadow: 0px 0px 0px 35px #6199D1; } }
+
+#sponsors {
+  background-color: white;
+  padding-top: 1em; }
+  #sponsors h3 {
+    font-size: 3.2rem;
+    text-align: center;
+    font-weight: bold; }
+  #sponsors .instructions {
+    padding-bottom: 1em; }
+    #sponsors .instructions p {
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: 0; }
+  #sponsors .logos {
+    text-align: center; }
+    @media only screen and (max-width: 40em) {
+      #sponsors .logos {
+        padding: 0; }
+        #sponsors .logos .logo {
+          width: 15%;
+          margin: 5px 10px 15px 10px;
+          -webkit-justify-content: space-around;
+              -ms-flex-pack: distribute;
+                  justify-content: space-around; } }
+    @media only screen and (min-width: 40em) {
+      #sponsors .logos .logo {
+        margin: 5px 40px 15px 40px;
+        -webkit-justify-content: space-around;
+            -ms-flex-pack: distribute;
+                justify-content: space-around; } }
+
+.modal .title {
+  margin-bottom: 1em;
+  text-align: center; }
+
+.modal img {
+  margin: 0 auto;
+  max-height: 65px; }
+
+.modal h3 {
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 2em; }
+
+.modal h4 {
+  padding-top: 1.5em;
+  padding-bottom: 0.1em;
+  text-align: center;
+  font-family: Montserrat; }
+
+.modal h5 {
+  font-family: Montserrat; }
+
+.modal .description {
+  text-align: justify;
+  padding: 0 0.1em;
+  font-family: Montserrat;
+  font-size: 0.8em; }
+
+.modal .detail {
+  padding-left: 2em;
+  font-size: 0.8em; }
+
+.modal hr:last-of-type {
+  display: none; }
+
+body {
+  background-color: #6199D1;
+  font-family: Montserrat, sans-serif; }
+
+.footer {
+  background-color: #6199D1;
+  color: white;
+  font-weight: 700; }
+  @media only screen and (max-width: 40em) {
+    .footer {
+      padding-top: 1em;
+      font-size: 0.8em; }
+      .footer .social-media {
+        margin-top: 1em; } }
+  .footer ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0; }
+  .footer li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 0.2em; }
+  .footer a {
+    color: white; }
+  .footer p {
+    text-align: center;
+    margin-bottom: 0.2em; }
+
+.social-icons {
+  text-align: center; }
+  .social-icons .social-icon {
+    fill: white;
+    height: 1.5em;
+    width: 1.5em;
+    margin: 0em 1em; }
