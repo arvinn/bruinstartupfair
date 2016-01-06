@@ -18,7 +18,7 @@ var sponsors = {
   }
 }
 
-var source = $("#template").html();
+var source = $("#tooltip-template").html();
 var tooltip_template = Handlebars.compile(source);
 var modal_source = $("#modal-template").html();
 var modal_template = Handlebars.compile(modal_source);
