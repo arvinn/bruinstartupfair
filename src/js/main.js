@@ -14,7 +14,7 @@ var sponsors = {
                      'position': 'Data Analytics Intern ',
                      'details': ['Part-Time', 'Spring 2016']
                   }],
-    'logo': '/img/logo-small.png'
+    'logo': './img/logo-small.png'
   }
 }
 
