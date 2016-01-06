@@ -502,4 +502,7 @@ body {
   }
 }
 
-
+// Override Foundation
+.row {
+  max-width: 100%;
+}
