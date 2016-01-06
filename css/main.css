@@ -320,3 +320,6 @@ body {
     height: 1.5em;
     width: 1.5em;
     margin: 0em 1em; }
+
+.row {
+  max-width: 100%; }
