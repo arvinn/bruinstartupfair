@@ -46,4 +46,21 @@ $(document).ready(function() {
     $('#mobile-modal').html(modal_template(company));
     $('#mobile-modal').modal('show');
   });
+
+  // Scroll-to effect
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 400);
+          return false;
+        }
+      }
+    });
+  });
+
 });

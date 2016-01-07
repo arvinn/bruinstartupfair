@@ -1,10 +1,14 @@
 @import url("//fonts.googleapis.com/css?family=Montserrat");
 .top-bar {
-  background-color: #6199D1;
+  background-color: transparent;
   text-transform: uppercase;
-  color: white; }
+  color: white;
+  height: 60px;
+  position: absolute;
+  z-index: 10;
+  width: 100%; }
   .top-bar ul {
-    background-color: #6199D1; }
+    background-color: transparent; }
   .top-bar a {
     color: white; }
   .top-bar .top-bar-left img {
@@ -19,7 +23,10 @@
   border-radius: 12px; }
 
 .title-bar {
-  background-color: #6199D1; }
+  background-color: transparent;
+  position: absolute;
+  z-index: 10;
+  width: 100%; }
   .title-bar a {
     color: white; }
   .title-bar img {
@@ -42,7 +49,7 @@
   overflow: hidden;
   position: relative; }
   .header h1 {
-    padding-top: 1em;
+    padding-top: 2em;
     font-weight: bold;
     color: white;
     text-transform: uppercase;
