@@ -18,13 +18,18 @@ $bfs-font-stack: Montserrat, sans-serif;
 
 
 // Topbar for desktop
+
 .top-bar {
-  background-color: $bfs-blue;
+  background-color: transparent;
   text-transform: uppercase;
   color: white;
+  height: 60px;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
 
   & ul {
-    background-color: $bfs-blue;
+    background-color: transparent;
   }
 
   a {
@@ -51,7 +56,10 @@ $bfs-font-stack: Montserrat, sans-serif;
 
 // Titlebar for mobile
 .title-bar {
-  background-color: $bfs-blue;
+  background-color: transparent;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
 
   a {
     color: white;
@@ -97,9 +105,8 @@ $bfs-font-stack: Montserrat, sans-serif;
   overflow: hidden;
   position: relative;
 
-
   h1 {
-    padding-top: 1em;
+    padding-top: 2em;
     font-weight: bold;
     color: white;
     text-transform: uppercase;
