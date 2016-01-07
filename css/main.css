@@ -17,6 +17,27 @@
     margin-left: 0.1em; }
   .top-bar .top-bar-right {
     margin-right: 20px; }
+  .top-bar .hover:after, .top-bar .hover:before {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0; }
+  .top-bar .hover:hover:after, .top-bar .hover:hover:before {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    border-color: #fff;
+    transition: width 350ms ease-in-out;
+    width: 70%; }
+  .top-bar .hover .hover:hover:before {
+    bottom: auto;
+    top: 0;
+    width: 70%; }
 
 .navbar-sign-up {
   border: solid white 1.5px;
@@ -319,6 +340,27 @@ body {
   .footer p {
     text-align: center;
     margin-bottom: 0.2em; }
+  .footer .hover:after, .footer .hover:before {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0; }
+  .footer .hover:hover:after, .footer .hover:hover:before {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    border-color: #fff;
+    transition: width 350ms ease-in-out;
+    width: 70%; }
+  .footer .hover .hover:hover:before {
+    bottom: auto;
+    top: 0;
+    width: 70%; }
 
 .social-icons {
   text-align: center; }
