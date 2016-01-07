@@ -47,6 +47,35 @@ $bfs-font-stack: Montserrat, sans-serif;
   .top-bar-right {
     margin-right: 20px;
   }
+
+  .hover {
+    &:after,
+    &:before {
+      backface-visibility: hidden;
+      border: 1px solid rgba(#fff, 0);
+      bottom: 0px;
+      content: " ";
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      transition: all 280ms ease-in-out;
+      width: 0;
+    }
+
+    &:hover:after,
+    &:hover:before {
+      backface-visibility: hidden;
+      border-color: #fff;
+      transition: width 350ms ease-in-out;
+      width: 70%;
+    }
+
+    .hover:hover:before {
+      bottom: auto;
+      top: 0;
+      width: 70%;
+    }
+  }
 }
 
 .navbar-sign-up {
@@ -496,6 +525,35 @@ body {
   p {
     text-align: center;
     margin-bottom: 0.2em;
+  }
+
+  .hover {
+    &:after,
+    &:before {
+      backface-visibility: hidden;
+      border: 1px solid rgba(#fff, 0);
+      bottom: 0px;
+      content: " ";
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      transition: all 280ms ease-in-out;
+      width: 0;
+    }
+
+    &:hover:after,
+    &:hover:before {
+      backface-visibility: hidden;
+      border-color: #fff;
+      transition: width 350ms ease-in-out;
+      width: 70%;
+    }
+
+    .hover:hover:before {
+      bottom: auto;
+      top: 0;
+      width: 70%;
+    }
   }
 }
 
