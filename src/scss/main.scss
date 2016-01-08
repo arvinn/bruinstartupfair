@@ -311,6 +311,11 @@ $bfs-font-stack: Montserrat, sans-serif;
 #clubs {
   margin-top: 1em;
   margin-bottom: 1em;
+
+  img {
+    background-color: $bfs-blue;
+    border: none;
+  }
 }
 
 
