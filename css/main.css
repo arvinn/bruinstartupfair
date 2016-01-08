@@ -201,6 +201,9 @@
 #clubs {
   margin-top: 1em;
   margin-bottom: 1em; }
+  #clubs img {
+    background-color: #6199D1;
+    border: none; }
 
 #circles {
   color: white;
