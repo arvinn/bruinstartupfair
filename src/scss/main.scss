@@ -91,6 +91,12 @@ $bfs-font-stack: Montserrat, sans-serif;
 .navbar-sign-up {
   border: solid white 1.5px;
   border-radius: 12px;
+  transition: color 0.5s ease;
+
+  &:hover {
+    color: $bfs-blue;
+    background-color: white;
+  }
 }
 
 // Titlebar for mobile
