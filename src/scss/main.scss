@@ -48,7 +48,7 @@ $bfs-font-stack: Montserrat, sans-serif;
 
   .top-bar-left {
     img {
-      background-color: white;
+      background-color: none;
       height: 40px;
       margin-left: 0.1em;
     }
@@ -117,13 +117,12 @@ $bfs-font-stack: Montserrat, sans-serif;
     }
   }
 
-  a {
-    color: white;
+  a { color: white;
   }
 
   img {
     height: 30px;
-    background-color: white;
+    background-color: none;
   }
 
   .menu-button {
