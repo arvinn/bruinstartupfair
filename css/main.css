@@ -47,7 +47,11 @@
 
 .navbar-sign-up {
   border: solid white 1.5px;
-  border-radius: 12px; }
+  border-radius: 12px;
+  transition: color 0.5s ease; }
+  .navbar-sign-up:hover {
+    color: #6199D1;
+    background-color: white; }
 
 .title-bar {
   transition: background-color 0.5s ease;
