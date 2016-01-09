@@ -252,7 +252,7 @@ $bfs-font-stack: Montserrat, sans-serif;
 
   // Desktop
   @media only screen and (min-width: 40em) {
-    min-height: 450px;
+    min-height: 550px;
     h1 {
       font-size: 3.2em;
     }
@@ -332,6 +332,8 @@ $bfs-font-stack: Montserrat, sans-serif;
 #clubs {
   margin-top: 1em;
   margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
 
   img {
     background-color: $bfs-blue;
