@@ -18,7 +18,7 @@
   .top-bar a {
     color: white; }
   .top-bar .top-bar-left img {
-    background-color: white;
+    background-color: none;
     height: 40px;
     margin-left: 0.1em; }
   .top-bar .top-bar-right {
@@ -68,7 +68,7 @@
     color: white; }
   .title-bar img {
     height: 30px;
-    background-color: white; }
+    background-color: none; }
   .title-bar .menu-button {
     display: inline-block;
     height: 100%; }
