@@ -616,6 +616,15 @@ body {
 }
 
 
+// Offset anchors to not be covered by topbar
+a.anchor {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+}
+
+
 
 // Override Foundation
 .row {
