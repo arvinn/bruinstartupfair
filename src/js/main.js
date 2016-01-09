@@ -47,6 +47,17 @@ $(document).ready(function() {
     $('#mobile-modal').modal('show');
   });
 
+
+  $('.navbar-sign-up').click(function(e) {
+    var id = ($(this)[0].id);
+    $('#sign-up-modal').modal('show');
+  });
+
+
+  $('#student-signup').click(function(e) {
+    $('#signup-message').html("Student signups will open up two weeks before the event!");
+  });
+
   // Scroll-to effect
   $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
@@ -67,4 +78,23 @@ $(document).ready(function() {
   $('#student').tooltipster({
       delay: 150,
   });
+
+  $(window).scroll(function() {    
+      var scroll = $(window).scrollTop();
+
+      if (scroll >= 20) {
+          $(".top-bar").addClass("scrolling");
+          console.log('hi');
+      } else {
+          $(".top-bar").removeClass("scrolling");
+      }
+
+      if (scroll >= 20) {
+          $(".title-bar").addClass("scrolling");
+          console.log('hi');
+      } else {
+          $(".title-bar").removeClass("scrolling");
+      }
+  });
+
 });

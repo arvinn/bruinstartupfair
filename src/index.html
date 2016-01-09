@@ -9,8 +9,8 @@
 
   <link href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css" rel="stylesheet">
   <link href="css/tooltipster.css" rel="stylesheet" type="text/css">
-  <link href="./css/main.css" rel="stylesheet">
   <link href="./css/bootstrap.css" rel="stylesheet">
+  <link href="./css/main.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 </head>
 
@@ -38,7 +38,7 @@
         <li class='hover'><a href="#about">About</a></li>
         <li class='hover'><a href="#contact">Contact</a></li>
         <li class='hover'><a href="#sponsors">Sponsors</a></li>
-        <li><a class="navbar-sign-up" href="#">Sign up</a></li>
+        <li><a class="navbar-sign-up">Sign up</a></li>
       </ul>
     </div>
   </nav>
@@ -232,6 +232,26 @@
       {{/positions}}
     </div>
   </script>
+
+  <!-- Sign up modal -->
+  <div id="sign-up-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Sign Up</h4>
+        </div>
+        <div class="modal-body">
+          <div class="wrapper">
+            <a href="#"><button id="student-signup" class="btn btn-primary disabled">Student</button></a>
+            <a href="https://uclabsf.typeform.com/to/PnAUTi"><button class="btn btn-primary">Company</button></a>
+            <p id="signup-message"></p>
+          </div>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  
 
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> 
   <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script> 

@@ -20,13 +20,23 @@ $bfs-font-stack: Montserrat, sans-serif;
 // Topbar for desktop
 
 .top-bar {
+  transition: background-color 0.5s ease;
   background-color: transparent;
   text-transform: uppercase;
   color: white;
   height: 60px;
-  position: absolute;
+  position: fixed;
   z-index: 10;
   width: 100%;
+
+  &.scrolling {
+    transition: background-color 0.5s ease;
+    background-color: $bfs-blue;
+
+    & ul {
+      background-color: $bfs-blue;
+    }
+  }
 
   & ul {
     background-color: transparent;
@@ -85,10 +95,21 @@ $bfs-font-stack: Montserrat, sans-serif;
 
 // Titlebar for mobile
 .title-bar {
+  transition: background-color 0.5s ease;
   background-color: transparent;
-  position: absolute;
+  position: fixed;
   z-index: 10;
   width: 100%;
+
+
+  &.scrolling {
+    transition: background-color 0.5s ease;
+    background-color: $bfs-blue;
+
+    & ul {
+      background-color: $bfs-blue;
+    }
+  }
 
   a {
     color: white;
@@ -571,6 +592,28 @@ body {
     margin: 0em 1em;
   }
 }
+
+
+#sign-up-modal .modal-body {
+  text-align: center;
+
+  .btn {
+    margin: 0 auto;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .disabled {
+    cursor: not-allowed;
+  }
+
+  p {
+    margin-top: 1em;
+  }
+
+}
+
+
 
 // Override Foundation
 .row {
