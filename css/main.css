@@ -82,7 +82,7 @@
     box-sizing: border-box; }
 
 .header {
-  background: linear-gradient(rgba(178, 178, 178, 0.5), rgba(178, 178, 178, 0.5)), url("../img/background.jpg") bottom center/cover no-repeat padding-box content-box;
+  background: linear-gradient(rgba(178, 178, 178, 0.5), rgba(178, 178, 178, 0.5)), url("../img/background.jpg") top center/cover no-repeat padding-box content-box;
   overflow: hidden;
   position: relative; }
   .header h1 {
