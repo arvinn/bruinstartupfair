@@ -63,4 +63,8 @@ $(document).ready(function() {
     });
   });
 
+
+  $('#student').tooltipster({
+      delay: 150,
+  });
 });
