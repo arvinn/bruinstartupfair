@@ -398,5 +398,11 @@ body {
   #sign-up-modal .modal-body p {
     margin-top: 1em; }
 
+a.anchor {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden; }
+
 .row {
   max-width: 100%; }
