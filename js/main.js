@@ -84,17 +84,28 @@ $(document).ready(function() {
 
       if (scroll >= 20) {
           $(".top-bar").addClass("scrolling");
-          console.log('hi');
       } else {
           $(".top-bar").removeClass("scrolling");
       }
 
       if (scroll >= 20) {
           $(".title-bar").addClass("scrolling");
-          console.log('hi');
       } else {
           $(".title-bar").removeClass("scrolling");
       }
   });
+
+
+  $('#subscribe').click(function(e) {
+    var width = $(window).width() / parseFloat($("body").css("font-size"));
+    if (width > 40) {
+      console.log('big');
+      $('#medium-form').submit();
+    }
+    else {
+      $('#mobile-form').submit();
+    }
+  });
+
 
 });
