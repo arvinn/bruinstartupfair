@@ -1,5 +1,6 @@
 // Fonts
 @import url('//fonts.googleapis.com/css?family=Montserrat');
+@import url('//fonts.googleapis.com/css?family=Lato');
 
 
 // Mixins
@@ -329,6 +330,7 @@ $bfs-font-stack: Montserrat, sans-serif;
     text-align: justify;
     max-width: 920px;
     margin: 0 auto;
+    font-family: Lato, sans-serif;;
   }
 }
 
