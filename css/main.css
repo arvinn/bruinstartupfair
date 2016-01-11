@@ -343,9 +343,7 @@ body {
   @media only screen and (max-width: 40em) {
     .footer {
       padding-top: 1em;
-      font-size: 0.8em; }
-      .footer .social-media {
-        margin-top: 1em; } }
+      font-size: 0.8em; } }
   .footer ul {
     display: -webkit-flex;
     display: -ms-flexbox;
