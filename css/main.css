@@ -413,5 +413,8 @@ a.anchor {
   top: -60px;
   visibility: hidden; }
 
+body {
+  color: #4D4D4D; }
+
 .row {
   max-width: 100%; }
