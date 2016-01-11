@@ -1,4 +1,5 @@
 @import url("//fonts.googleapis.com/css?family=Montserrat");
+@import url("//fonts.googleapis.com/css?family=Lato");
 .top-bar {
   transition: background-color 0.5s ease;
   background-color: transparent;
@@ -212,7 +213,8 @@
   #about p {
     text-align: justify;
     max-width: 920px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    font-family: Lato, sans-serif; }
 
 #clubs {
   margin-top: 1em;
