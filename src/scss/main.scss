@@ -343,8 +343,13 @@ $bfs-font-stack: Montserrat, sans-serif;
   margin-right: auto;
 
   img {
-    background-color: $bfs-blue;
-    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px rgba(194, 0, 0, 0);
+    border-color: solid white 2px;
+
+    &:hover {
+      box-shadow: 0px 0px 6px 1px rgba(33, 153, 232, 0.5)
+    }
   }
 }
 
