@@ -294,14 +294,17 @@
     @media only screen and (max-width: 40em) {
       #sponsors .logos {
         padding: 0; }
-        #sponsors .logos .logo {
-          width: 15%;
+        #sponsors .logos img.logo {
+          max-width: 15%;
+          max-height: 15%;
           margin: 5px 10px 15px 10px;
           -webkit-justify-content: space-around;
               -ms-flex-pack: distribute;
                   justify-content: space-around; } }
     @media only screen and (min-width: 40em) {
       #sponsors .logos .logo {
+        max-width: 100px;
+        max-height: 100px;
         margin: 5px 40px 15px 40px;
         -webkit-justify-content: space-around;
             -ms-flex-pack: distribute;
