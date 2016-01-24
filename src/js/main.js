@@ -448,13 +448,11 @@ $(document).ready(function() {
 
   // Modals
   $('.logo').click(function(e) {
-    e.preventDefault();
-
     var id = ($(this)[0].id);
     //var company = sponsors[id];
     var company = sponsors[id];
-    console.log(company);
     var width = $(window).width() / parseFloat($("body").css("font-size"));
+    e.preventDefault();
 
     // Disable modals for desktops (40 em or greater)
     if (width > 40) {
