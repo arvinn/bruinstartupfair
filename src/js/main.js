@@ -33,6 +33,18 @@ var sponsors = {
     'logo': './img/logo/epoxy.png'
   },
 
+  'songabout': {
+    'name': 'Songabout.FM',
+    'description': 'Songabout.FM provides a verified All-In-One platform portal for music artists to share their song meanings and in-studio video content of behind the scenes footage.',
+    'positions': [
+                 {
+                     'position': 'We are currently seeking to fulfill freelance iOS and android positions . Location based back-end knowledge is a plus!',
+                     'details': []
+                 },
+                 ],
+    'logo': './img/logo/songabout.png'
+  },
+
   'fluxchargers': {
     'name': 'Flux Chargers',
     'description': '',
@@ -151,6 +163,27 @@ var sponsors = {
     'url' : 'http://flux.la',
   },
 
+  'tuitionio': {
+    'name': 'Tuition.io',
+    'description': "Tuition.io's award-winning technology enables employers to contribute directly to their employees' existing student loan debt, making recruiting easier and delivering retention through engagement and workforce happiness.",
+    'positions': [
+                 {
+                     'position': 'Software engineering intern',
+                     'details': ['Spring/Summer']
+                 },
+                 {
+                     'position': 'Sales intern',
+                     'details': ['Spring/Summer']
+                 },
+                 {
+                     'position': 'Client experience intern',
+                     'details': ['Spring/Summer']
+                 },
+                 ],
+    'logo': './img/logo/tuitionio.png',
+    'url' : 'http://tuition.io',
+  },
+
   'nimble': {
     'name': 'Nimble',
     'description': 'Nimble is a simply smarter sales and marketing solution. It allows you to track, engage, and nurture important contacts. It works everywhere you are: social sites, your inbox, etc. It delivers insights on any person or company you come across onlin',
@@ -226,6 +259,19 @@ var sponsors = {
     'url' : 'https://www.eatthismuch.com/',
   },
 
+  'localroots': {
+    'name': 'Local Roots',
+    'description': 'Local Roots is forging the food system of the future. We’re boldly developing technologies to feed the planet healthy and delicious food in an environmentally responsible way. Every day we innovate agriculture in ways that others think impossible.',
+    'positions': [
+                 {
+                     'position': 'Hardware and software engineers',
+                     'details': ['full-time', 'intern']
+                 },
+                                  ],
+    'logo': './img/logo/localrootsfarm.png',
+    'url' : 'http://localrootsfarms.com',
+  },
+
   'videoamp': {
     'name': 'VideoAmp',
     'description': 'VideoAmp is a software platform built to enable the total video market. We do this by bridging the data divide between TV and Digital platforms. We enable content owners and advertisers to transact seamlessly across screens.',
@@ -264,7 +310,7 @@ var sponsors = {
                      'details': ['iOS', 'Android', 'JAVA']
                  },
                  ],
-    'logo': './img/logo/moopon.jpg',
+    'logo': './img/logo/moopon.png',
     'url' : 'http://moopon.us',
   },
 
@@ -384,6 +430,15 @@ $(document).ready(function() {
 
   // Tooltip hover
   $('.logo').each(function() {
+    var id = this.id;
+    $(this).attr({
+      src: sponsors[id].logo,
+    });
+
+    $(this).parent().attr({
+      href: sponsors[id].url,
+    });
+
     $(this).tooltipster({
         delay: 150,
         content: $('<span>' + tooltip_template(sponsors[this.id])  + '</span>')
@@ -393,9 +448,12 @@ $(document).ready(function() {
 
   // Modals
   $('.logo').click(function(e) {
+    e.preventDefault();
+
     var id = ($(this)[0].id);
     //var company = sponsors[id];
-    var company = sponsors['Snapchat'];
+    var company = sponsors[id];
+    console.log(company);
     var width = $(window).width() / parseFloat($("body").css("font-size"));
 
     // Disable modals for desktops (40 em or greater)
@@ -456,6 +514,7 @@ $(document).ready(function() {
 
 
   $('#subscribe').click(function(e) {
+
     var width = $(window).width() / parseFloat($("body").css("font-size"));
     if (width > 40) {
       console.log('big');

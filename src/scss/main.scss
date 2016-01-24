@@ -476,7 +476,8 @@ $bfs-font-stack: Montserrat, sans-serif;
       padding: 0;
 
       img.logo {
-        width: 15%;
+        max-width: 15%;
+        max-height: 15%;
         margin: 5px 10px 15px 10px;
         justify-content: space-around;
       }
@@ -486,6 +487,7 @@ $bfs-font-stack: Montserrat, sans-serif;
     @media only screen and (min-width: 40em) {
       .logo {
         max-width: 100px;
+        max-height: 100px;
         margin: 5px 40px 15px 40px;
         justify-content: space-around;
       }
