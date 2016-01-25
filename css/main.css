@@ -295,7 +295,7 @@
       #sponsors .logos {
         padding: 0; }
         #sponsors .logos img.logo {
-          max-width: 15%;
+          max-width: 35%;
           max-height: 15%;
           margin: 5px 10px 15px 10px;
           -webkit-justify-content: space-around;
@@ -303,12 +303,30 @@
                   justify-content: space-around; } }
     @media only screen and (min-width: 40em) {
       #sponsors .logos .logo {
-        max-width: 100px;
         max-height: 100px;
+        max-width: 100px;
         margin: 5px 40px 15px 40px;
         -webkit-justify-content: space-around;
             -ms-flex-pack: distribute;
-                justify-content: space-around; } }
+                justify-content: space-around; }
+      #sponsors .logos .sponsor {
+        display: block;
+        width: 100%; }
+      #sponsors .logos .title-sponsor .logo {
+        max-height: 200px;
+        max-width: 200px; }
+      #sponsors .logos .platinum-sponsor .logo {
+        max-height: 150px;
+        max-width: 150px; }
+      #sponsors .logos .gold-sponsor .logo {
+        max-height: 125px;
+        max-width: 125px; }
+      #sponsors .logos .silver-sponsor .logo {
+        max-height: 115px;
+        max-width: 115px; }
+      #sponsors .logos .bronze-sponsor .logo {
+        max-height: 100px;
+        max-width: 100px; } }
 
 .modal .title {
   margin-bottom: 1em;

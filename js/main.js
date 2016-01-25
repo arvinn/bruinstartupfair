@@ -418,6 +418,28 @@ var sponsors = {
     'url' : 'http://gem.co/',
   },
 
+  'nopical': {
+    'name': 'Nopical.com',
+    'description': 'Nopical.com is a news aggregation platform that streamlines the online news consumption process by providing a peer-driven multimedia news platform that combines and optimizes stories from an all-inclusive media source perspective.',
+    'positions': [
+                 {
+                     'position': 'Front-end Developer',
+                     'details': []
+                 },
+                 {
+                     'position': 'Developer Architect',
+                     'details': []
+                 },
+                 {
+                     'position': 'Full-Stack Developer Intern positions',
+                     'details': []
+                 },
+                 ],
+    'logo': './img/logo/nopical.png',
+    'url' : 'http://nopical.comi',
+  },
+
+
 }
 
 var source = $("#tooltip-template").html();
