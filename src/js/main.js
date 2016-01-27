@@ -519,11 +519,14 @@ $(document).ready(function() {
     //var company = sponsors[id];
     var company = sponsors[id];
     var width = $(window).width() / parseFloat($("body").css("font-size"));
-    e.preventDefault();
 
     // Disable modals for desktops (40 em or greater)
     if (width > 40) {
       return;
+    }
+    // Prevent following link if on mobile and show modal instead
+    else {
+      e.preventDefault();
     }
     $('#mobile-modal').html(modal_template(company));
     $('#mobile-modal').modal('show');
