@@ -1,5 +1,57 @@
 var sponsors = {
 
+  'rendermedia': {
+    'name': 'Render Media',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/rendermedia.png',
+    'url': 'http://www.rndr.com'
+  },
+
+  'tenoneten': {
+    'name': 'TenOneTen',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/tenoneten.png',
+    'url': 'https://www.tenoneten.net/'
+  },
+
+  'mastercal': {
+    'name': 'MasterCal',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/mastercal.png',
+    'url': 'https://www.mastercal.com/'
+  },
+
+  'shadowbid': {
+    'name': 'Shadowbid',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/shadowbid.png',
+    'url': 'https://www.shadowbid.com/'
+  },
+
   'datascience': {
     'name': 'DataScience',
     'description': "",
