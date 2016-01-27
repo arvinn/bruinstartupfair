@@ -200,7 +200,7 @@ var sponsors = {
                      'details': ['Intern', 'Spring/Summer']
                  },
                  {
-                     'position': 'Cllient Experience Intern',
+                     'position': 'Client Experience Intern',
                      'details': ['Spring/Summer']
                  },
                  ],
