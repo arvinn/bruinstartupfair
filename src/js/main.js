@@ -1,5 +1,18 @@
 var sponsors = {
 
+  'aerserve': {
+    'name': 'AerServ',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/aerserve.png',
+    'url': 'https://www.aerserv.com/'
+  },
+
   'tinder': {
     'name': 'Tinder',
     'description': "",
@@ -37,7 +50,7 @@ var sponsors = {
 
   'rackspace': {
     'name': 'Rackspace',
-    'description': 'The number one Managed Cloud company',
+    'description': '',
     'positions': [{
                      'position': '',
                      'details': []
@@ -555,8 +568,7 @@ $(document).ready(function() {
 
 
     // No description yet:
-    var no_description = ["rackspace", "tinder"];
-    if ($.inArray(id, no_description) !== -1) {
+    if (sponsors[id].description == '') {
       return;
     }
 
