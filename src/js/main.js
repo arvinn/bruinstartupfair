@@ -1,5 +1,18 @@
 var sponsors = {
 
+  'originate': {
+    'name': 'Originate',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/originate.png',
+    'url': 'https://www.originate.com/'
+  },
+
   'aerserve': {
     'name': 'AerServ',
     'description': "",
