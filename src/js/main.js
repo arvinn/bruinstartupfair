@@ -1,4 +1,28 @@
 var sponsors = {
+  'assetavenue': {
+    'name': 'AssetAvenue',
+    'description': '“AssetAvenue is an online lending marketplace for borrowers and brokers who seek mortgage financing on residential investment properties, and institutional investors who seek high yield returns in real estate credit.',
+    'positions': [{
+                     'position': 'Sr. Software Engineer',
+                     'details': []
+                  },
+                  {
+                     'position': 'Director of Marketing',
+                     'details': []
+                  },
+                  {
+                     'position': 'UI Desiginer',
+                     'details': []
+                  },
+                  {
+                     'position': 'Account Executive',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/assetavenue.png',
+    'url': 'https://assetavenue.com/'
+  },
+
   'snapchat': {
     'name': 'Snapchat',
     'description': 'Snapchat is a fun messaging app for sharing moments. You can take a photo or a video, then add a caption or doodle or lense, and send it to a friend or add it to your story to share with the world/your followers. Friends can view individual snaps for up to 10 seconds, and then it disappears.',
