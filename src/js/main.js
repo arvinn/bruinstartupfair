@@ -189,7 +189,7 @@ var sponsors = {
 
   'fluxla': {
     'name': 'Flux.LA',
-    'description': 'Software Consultancy Services',
+    'description': 'Software Consultancy Services - We build brands and businesses through high quality graphic design, powerful storytelling, and incredible user experiences. We streamline sales, generate additional sources of revenue and optimize your tools to help you grow.',
     'positions': [
                  {
                      'position': 'Sales',
