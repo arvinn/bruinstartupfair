@@ -1,5 +1,17 @@
 var sponsors = {
 
+  'rackspace': {
+    'name': 'Rackspace',
+    'description': 'The number one Managed Cloud company',
+    'positions': [{
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/rackspace.png',
+    'url': 'https://www.rackspace.com/'
+  },
+
   'zestfinance': {
     'name': 'ZestFinance',
     'description': 'ZestFinance is a technology startup that uses machine learning and large-scale data analysis to transform credit availability for millions of Americans. We aim to save the American underbanked billions of dollars.',
@@ -506,6 +518,15 @@ $(document).ready(function() {
       href: sponsors[id].url,
     });
 
+
+    // No description yet:
+    var no_description = ["rackspace"];
+    if ($.inArray(id, no_description) === 0) {
+      return;
+    }
+
+
+
     $(this).tooltipster({
         delay: 150,
         content: $('<span>' + tooltip_template(sponsors[this.id])  + '</span>')
@@ -528,6 +549,7 @@ $(document).ready(function() {
     else {
       e.preventDefault();
     }
+
     $('#mobile-modal').html(modal_template(company));
     $('#mobile-modal').modal('show');
   });
