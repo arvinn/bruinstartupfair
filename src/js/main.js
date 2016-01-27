@@ -1,7 +1,28 @@
 var sponsors = {
+
+  'zestfinance': {
+    'name': 'ZestFinance',
+    'description': 'ZestFinance is a technology startup that uses machine learning and large-scale data analysis to transform credit availability for millions of Americans. We aim to save the American underbanked billions of dollars.',
+    'positions': [{
+                     'position': 'Non-tech Interns',
+                     'details': ['Marketing', 'Operations', 'Accounting', 'Finance']
+                  },
+                  {
+                     'position': 'Tech Interns',
+                     'details': ['Data Sciecne, Business Analysts', 'Product Development', 'Software Engineering']
+                  },
+                  {
+                     'position': 'Summer internships and new college grads for fulltime opportuinites in the above mentioned areas',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/zestfinance.png',
+    'url': 'http://www.zestfinance.com/'
+  },
+
   'assetavenue': {
     'name': 'AssetAvenue',
-    'description': '“AssetAvenue is an online lending marketplace for borrowers and brokers who seek mortgage financing on residential investment properties, and institutional investors who seek high yield returns in real estate credit.',
+    'description': 'AssetAvenue is an online lending marketplace for borrowers and brokers who seek mortgage financing on residential investment properties, and institutional investors who seek high yield returns in real estate credit.',
     'positions': [{
                      'position': 'Sr. Software Engineer',
                      'details': []
