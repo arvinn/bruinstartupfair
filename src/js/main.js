@@ -1,5 +1,18 @@
 var sponsors = {
 
+  'tinder': {
+    'name': 'Tinder',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/tinder.png',
+    'url': 'http://www.tinder.com'
+  },
+
   'beehive': {
     'name': 'Beehive',
     'description': "A Hashtag Insights Platform that enables brands to identify influencers, discover popular content, and track competitors.",
@@ -542,8 +555,8 @@ $(document).ready(function() {
 
 
     // No description yet:
-    var no_description = ["rackspace"];
-    if ($.inArray(id, no_description) === 0) {
+    var no_description = ["rackspace", "tinder"];
+    if ($.inArray(id, no_description) !== -1) {
       return;
     }
 
