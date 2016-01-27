@@ -1,5 +1,18 @@
 var sponsors = {
 
+  'goguardian': {
+    'name': 'GoGuardian',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/goguardian.png',
+    'url': 'https://www.gogaurdian.com/'
+  },
+
   'originate': {
     'name': 'Originate',
     'description': "",
