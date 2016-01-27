@@ -1,5 +1,18 @@
 var sponsors = {
 
+  'datascience': {
+    'name': 'DataScience',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/datascience.png',
+    'url': 'https://www.datascience.com/'
+  },
+
   'goguardian': {
     'name': 'GoGuardian',
     'description': "",
