@@ -1,5 +1,27 @@
 var sponsors = {
 
+  'beehive': {
+    'name': 'Beehive',
+    'description': "A Hashtag Insights Platform that enables brands to identify influencers, discover popular content, and track competitors.",
+    'positions': [
+                  {
+                     'position': 'Marketing Intern',
+                     'details': ['fulltime', 'part time', 'summer']
+                  },
+                  {
+                     'position': 'Sales Intern',
+                     'details': ['fulltime', 'part time', 'summer']
+                  },
+                  {
+                     'position': 'Software Engineer (React or Python)',
+                     'details': ['fulltime', 'part time', 'summer']
+                  },
+                  ],
+    'logo': './img/logo/beehive.png',
+    'url': 'http://www.heybeehive.com'
+  },
+
+
   'rackspace': {
     'name': 'Rackspace',
     'description': 'The number one Managed Cloud company',
