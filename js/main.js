@@ -1,4 +1,49 @@
 var sponsors = {
+
+  'zestfinance': {
+    'name': 'ZestFinance',
+    'description': 'ZestFinance is a technology startup that uses machine learning and large-scale data analysis to transform credit availability for millions of Americans. We aim to save the American underbanked billions of dollars.',
+    'positions': [{
+                     'position': 'Non-tech Interns',
+                     'details': ['Marketing', 'Operations', 'Accounting', 'Finance']
+                  },
+                  {
+                     'position': 'Tech Interns',
+                     'details': ['Data Sciecne, Business Analysts', 'Product Development', 'Software Engineering']
+                  },
+                  {
+                     'position': 'Summer internships and new college grads for fulltime opportuinites in the above mentioned areas',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/zestfinance.png',
+    'url': 'http://www.zestfinance.com/'
+  },
+
+  'assetavenue': {
+    'name': 'AssetAvenue',
+    'description': 'AssetAvenue is an online lending marketplace for borrowers and brokers who seek mortgage financing on residential investment properties, and institutional investors who seek high yield returns in real estate credit.',
+    'positions': [{
+                     'position': 'Sr. Software Engineer',
+                     'details': []
+                  },
+                  {
+                     'position': 'Director of Marketing',
+                     'details': []
+                  },
+                  {
+                     'position': 'UI Desiginer',
+                     'details': []
+                  },
+                  {
+                     'position': 'Account Executive',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/assetavenue.png',
+    'url': 'https://assetavenue.com/'
+  },
+
   'snapchat': {
     'name': 'Snapchat',
     'description': 'Snapchat is a fun messaging app for sharing moments. You can take a photo or a video, then add a caption or doodle or lense, and send it to a friend or add it to your story to share with the world/your followers. Friends can view individual snaps for up to 10 seconds, and then it disappears.',
