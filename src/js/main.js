@@ -23,7 +23,7 @@ var sponsors = {
                   },
                   ],
     'logo': './img/logo/tenoneten.png',
-    'url': 'https://www.tenoneten.net/'
+    'url': 'http://tenoneten.net/'
   },
 
   'mastercal': {
@@ -700,7 +700,8 @@ $(document).ready(function() {
 
 
   $('#student-signup').click(function(e) {
-    $('#signup-message').html("Student signups will open up two weeks before the event!");
+    //$('#signup-message').html("Student signups will open up two weeks before the event!");
+    $('#signup-message').show()
   });
 
   // Scroll-to effect
@@ -720,9 +721,11 @@ $(document).ready(function() {
   });
 
 
+  /*
   $('#student').tooltipster({
       delay: 150,
   });
+  */
 
   $(window).scroll(function() {    
       var scroll = $(window).scrollTop();
