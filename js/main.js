@@ -1,5 +1,156 @@
 var sponsors = {
 
+  'rendermedia': {
+    'name': 'Render Media',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/rendermedia.png',
+    'url': 'http://www.rndr.com'
+  },
+
+  'tenoneten': {
+    'name': 'TenOneTen',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/tenoneten.png',
+    'url': 'http://tenoneten.net/'
+  },
+
+  'mastercal': {
+    'name': 'MasterCal',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/mastercal.png',
+    'url': 'https://www.mastercal.com/'
+  },
+
+  'shadowbid': {
+    'name': 'Shadowbid',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/shadowbid.png',
+    'url': 'https://www.shadowbid.com/'
+  },
+
+  'datascience': {
+    'name': 'DataScience',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/datascience.png',
+    'url': 'https://www.datascience.com/'
+  },
+
+  'goguardian': {
+    'name': 'GoGuardian',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/goguardian.png',
+    'url': 'https://www.gogaurdian.com/'
+  },
+
+  'originate': {
+    'name': 'Originate',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/originate.png',
+    'url': 'https://www.originate.com/'
+  },
+
+  'aerserve': {
+    'name': 'AerServ',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/aerserve.png',
+    'url': 'https://www.aerserv.com/'
+  },
+
+  'tinder': {
+    'name': 'Tinder',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/tinder.png',
+    'url': 'http://www.tinder.com'
+  },
+
+  'beehive': {
+    'name': 'Beehive',
+    'description': "A Hashtag Insights Platform that enables brands to identify influencers, discover popular content, and track competitors.",
+    'positions': [
+                  {
+                     'position': 'Marketing Intern',
+                     'details': ['fulltime', 'part time', 'summer']
+                  },
+                  {
+                     'position': 'Sales Intern',
+                     'details': ['fulltime', 'part time', 'summer']
+                  },
+                  {
+                     'position': 'Software Engineer (React or Python)',
+                     'details': ['fulltime', 'part time', 'summer']
+                  },
+                  ],
+    'logo': './img/logo/beehive.png',
+    'url': 'http://www.heybeehive.com'
+  },
+
+
+  'rackspace': {
+    'name': 'Rackspace',
+    'description': '',
+    'positions': [{
+                     'position': '',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/rackspace.png',
+    'url': 'https://www.rackspace.com/'
+  },
+
   'zestfinance': {
     'name': 'ZestFinance',
     'description': 'ZestFinance is a technology startup that uses machine learning and large-scale data analysis to transform credit availability for millions of Americans. We aim to save the American underbanked billions of dollars.',
@@ -189,7 +340,7 @@ var sponsors = {
 
   'fluxla': {
     'name': 'Flux.LA',
-    'description': 'Software Consultancy Services',
+    'description': 'Software Consultancy Services - We build brands and businesses through high quality graphic design, powerful storytelling, and incredible user experiences. We streamline sales, generate additional sources of revenue and optimize your tools to help you grow.',
     'positions': [
                  {
                      'position': 'Sales',
@@ -200,7 +351,7 @@ var sponsors = {
                      'details': ['Intern', 'Spring/Summer']
                  },
                  {
-                     'position': 'Cllient Experience Intern',
+                     'position': 'Client Experience Intern',
                      'details': ['Spring/Summer']
                  },
                  ],
@@ -506,6 +657,14 @@ $(document).ready(function() {
       href: sponsors[id].url,
     });
 
+
+    // No description yet:
+    if (sponsors[id].description == '') {
+      return;
+    }
+
+
+
     $(this).tooltipster({
         delay: 150,
         content: $('<span>' + tooltip_template(sponsors[this.id])  + '</span>')
@@ -519,12 +678,16 @@ $(document).ready(function() {
     //var company = sponsors[id];
     var company = sponsors[id];
     var width = $(window).width() / parseFloat($("body").css("font-size"));
-    e.preventDefault();
 
     // Disable modals for desktops (40 em or greater)
     if (width > 40) {
       return;
     }
+    // Prevent following link if on mobile and show modal instead
+    else {
+      e.preventDefault();
+    }
+
     $('#mobile-modal').html(modal_template(company));
     $('#mobile-modal').modal('show');
   });
@@ -537,7 +700,8 @@ $(document).ready(function() {
 
 
   $('#student-signup').click(function(e) {
-    $('#signup-message').html("Student signups will open up two weeks before the event!");
+    //$('#signup-message').html("Student signups will open up two weeks before the event!");
+    $('#signup-message').show()
   });
 
   // Scroll-to effect
@@ -557,9 +721,11 @@ $(document).ready(function() {
   });
 
 
+  /*
   $('#student').tooltipster({
       delay: 150,
   });
+  */
 
   $(window).scroll(function() {    
       var scroll = $(window).scrollTop();
