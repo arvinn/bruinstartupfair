@@ -1,5 +1,47 @@
 var sponsors = {
 
+  'stackcommerce': {
+    'name': 'StackCommerce',
+    'description': "StackCommerce is the leading native commerce platform for online publishers, communities and brands. Since our inception, we've been powering commerce for companies across the web and are behind two unique brands: StackSocial and Citizen Goods.",
+    'positions': [
+                  {
+                     'position': 'Software Engineer',
+                     'details': ['Full-time'],
+                  },
+                  {
+                     'position': 'FrontEnd Engineer',
+                     'details': ['Full-time'],
+                  },
+                  {
+                     'position': 'Operations Coordinator',
+                     'details': ['Full-time'],
+                  },
+                  {
+                     'position': 'Account Associate',
+                     'details': ['Full-time'],
+                  },
+                  {
+                     'position': 'Sales Intern',
+                     'details': ['Summer'],
+                  },
+                  {
+                     'position': 'Customer Service Intern',
+                     'details': ['Summer'],
+                  },
+                  {
+                     'position': 'Operations Intern',
+                     'details': ['Summer'],
+                  },
+                  {
+                     'position': 'Business Development Intern',
+                     'details': ['Summer'],
+                  },
+                  ],
+    'logo': './img/logo/stackcommerce.svg',
+    'url': 'https://stackcommerce.com/'
+  },
+
+
   'rendermedia': {
     'name': 'Render Media',
     'description': "",
