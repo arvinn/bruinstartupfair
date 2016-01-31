@@ -93,10 +93,22 @@ var sponsors = {
 
   'aerserve': {
     'name': 'AerServ',
-    'description': "",
+    'description': "AerServ is a free mobile SSP and monetization platform that empowers mobile publishers with a superior technology platform, supercharges their ad revenue through mobile video, and supports them with unrivaled customer service for a triple-win.",
     'positions': [
                   {
-                     'position': '',
+                     'position': 'Software engineering',
+                     'details': []
+                  },
+                  {
+                     'position': 'Data analyst',
+                     'details': []
+                  },
+                  {
+                     'position': 'Business development',
+                     'details': []
+                  },
+                  {
+                     'position': 'Advertising operations',
                      'details': []
                   },
                   ],
