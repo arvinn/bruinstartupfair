@@ -106,13 +106,25 @@ var sponsors = {
 
   'tinder': {
     'name': 'Tinder',
-    'description': "",
+    'description': "The people we meet change our lives. A friend, a date, a romance, or even a chance encounter can change someone’s life forever. Tinder empowers users around the world to create new connections that otherwise might never have been possible.",
     'positions': [
-                  {
-                     'position': '',
-                     'details': []
-                  },
-                  ],
+          {
+             'position': 'Full-Time Engineer',
+             'details': ['Automation', 'Devops', 'Backend', 'Data', 'Full-Stack', 'Android', 'iOS']
+          },
+          {
+             'position': 'Full-Time Product Designer',
+             'details': []
+          },
+          {
+             'position': 'Intern Product Manager',
+             'details': []
+          },
+          {
+             'position': 'Intern Software Engineer',
+             'details': ['Android', 'iOS']
+          },
+    ],
     'logo': './img/logo/tinder.png',
     'url': 'http://www.tinder.com'
   },
