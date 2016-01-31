@@ -1,4 +1,17 @@
 var sponsors = {
+  'startupucla': {
+    'name': 'StartupUCLA/Blackstone Launchpad',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': ['']
+                  },
+                  ],
+    'logo': './img/logo/startupucla.png',
+    'url': 'http://startupucla.com/'
+  },
+
   'irobot': {
     'name': 'iRobot Corporation',
     'description': "",
@@ -160,11 +173,11 @@ var sponsors = {
 
   'shadowbid': {
     'name': 'Shadowbid',
-    'description': "",
+    'description': "Technology has made shopping online overwhelming. We aim to simplify the shopping experience by taking the guesswork and uncertainty out, while saving consumers money. We currently have a POC in alpha and are looking for develops to join the team.",
     'positions': [
                   {
-                     'position': '',
-                     'details': []
+                     'position': 'Software engineering intern',
+                     'details': ['Spring & Summer']
                   },
                   ],
     'logo': './img/logo/shadowbid.png',
