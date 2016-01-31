@@ -1,5 +1,23 @@
 var sponsors = {
 
+  'rivo': {
+    'name': 'Rivo',
+    'description': "Rivo is a mobile app you can use to find cool things to do now - catering to both your location and interests. The most comprehensive collection of calendars available is now all on one platform, connecting you with endless events and activities.",
+    'positions': [
+                  {
+                     'position': 'Community / Marketing Intern (Immediate, Ongoing)',
+                     'details': []
+                  },
+                  {
+                     'position': 'Software Engineering Intern (summer)',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/rivo.png',
+    'url': 'http://www.justrevel.com'
+  },
+
+
   'hart': {
     'name': 'Hart',
     'description': "Hart is a medical software company utilizing technology to bridge the gap between patients and providers. Our health and fitness platform encourages users to engage with their health in real-time.",
