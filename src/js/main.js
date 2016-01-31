@@ -1,4 +1,17 @@
 var sponsors = {
+  'irobot': {
+    'name': 'iRobot Corporation',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': ['']
+                  },
+                  ],
+    'logo': './img/logo/irobot.png',
+    'url': 'http://irobot.com'
+  },
+
   'microduino': {
     'name': 'Microduino',
     'description': "Microduino modules are easy-to-use electronic building blocks like super smart LEGOs. Simply stack them together to bring your ideas into reality.",
