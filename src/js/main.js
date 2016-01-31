@@ -1,5 +1,27 @@
 var sponsors = {
 
+  'hart': {
+    'name': 'Hart',
+    'description': "Hart is a medical software company utilizing technology to bridge the gap between patients and providers. Our health and fitness platform encourages users to engage with their health in real-time.",
+    'positions': [
+                  {
+                     'position': 'Software Engineers',
+                     'details': []
+                  },
+                  {
+                     'position': 'Data Engineers',
+                     'details': []
+                  },
+                  {
+                     'position': 'Mobile Engineers',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/hart.png',
+    'url': 'http://hart.com'
+  },
+
+
   'stackcommerce': {
     'name': 'StackCommerce',
     'description': "StackCommerce is the leading native commerce platform for online publishers, communities and brands. Since our inception, we've been powering commerce for companies across the web and are behind two unique brands: StackSocial and Citizen Goods.",
