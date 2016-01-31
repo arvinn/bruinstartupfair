@@ -1,4 +1,28 @@
 var sponsors = {
+  'microduino': {
+    'name': 'Microduino',
+    'description': "Microduino modules are easy-to-use electronic building blocks like super smart LEGOs. Simply stack them together to bring your ideas into reality.",
+    'positions': [
+                  {
+                     'position': 'Social Media intern',
+                     'details': ['Hiring year-round']
+                  },
+                  {
+                     'position': 'Sales/Marketing intern',
+                     'details': ['Hiring year-round']
+                  },
+                  {
+                     'position': 'Application Engineer intern',
+                     'details': ['Hiring year-round']
+                  },
+                  {
+                     'position': 'Technical Support Engineer intern',
+                     'details': ['Hiring year-round']
+                  },
+                  ],
+    'logo': './img/logo/microduino.png',
+    'url': 'https://www.microduino.cc'
+  },
 
   'rivo': {
     'name': 'Rivo',
