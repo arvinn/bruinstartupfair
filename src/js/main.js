@@ -91,7 +91,7 @@ var sponsors = {
 
 
   'stackcommerce': {
-    'name': 'StackCommerce',
+    'name': '',
     'description': "StackCommerce is the leading native commerce platform for online publishers, communities and brands. Since our inception, we've been powering commerce for companies across the web and are behind two unique brands: StackSocial and Citizen Goods.",
     'positions': [
                   {
@@ -390,7 +390,7 @@ var sponsors = {
   },
 
   'songabout': {
-    'name': 'Songabout.FM',
+    'name': '',
     'description': 'Songabout.FM provides a verified All-In-One platform portal for music artists to share their song meanings and in-studio video content of behind the scenes footage.',
     'positions': [
                  {
