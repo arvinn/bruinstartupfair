@@ -187,6 +187,19 @@ $bfs-font-stack: Montserrat, sans-serif;
     color: white;
   }
 
+  #header-sign-up {
+    width: 10rem;
+    height: 4rem;
+    display: block;
+    position: relative;
+    top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $bfs-blue;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+  }
+
   .register {
     margin: 0 auto;
     width: 100%;

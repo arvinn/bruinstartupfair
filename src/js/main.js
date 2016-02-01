@@ -854,6 +854,11 @@ $(document).ready(function() {
     $('#sign-up-modal').modal('show');
   });
 
+  $('#header-sign-up').click(function(e) {
+    $('#sign-up-modal').modal('show');
+    console.log('hi');
+  });
+
 
   $('#student-signup').click(function(e) {
     //$('#signup-message').html("Student signups will open up two weeks before the event!");
