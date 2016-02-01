@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="21px" viewBox="0 0 28 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
+    <title>hart_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Home" sketch:type="MSArtboardGroup" transform="translate(-188.000000, -14.000000)" fill="#3BBDCA">
+            <g id="Header" sketch:type="MSLayerGroup">
+                <path d="M203.484966,34.1696957 C202.889241,34.4372174 202.223034,34.5869565 201.519172,34.5869565 C200.81531,34.5869565 200.149103,34.4372174 199.55531,34.1696957 C197.966069,33.5707391 190.587586,28.6348261 188.678759,24.5398261 C188.244276,23.6477826 188,22.6571304 188,21.6144348 C188,17.6846957 191.430483,14.5 195.661379,14.5 C198.011448,14.5 200.114345,15.4842609 201.519172,17.0318696 C202.924966,15.4842609 205.026897,14.5 207.377931,14.5 C211.608828,14.5 215.038345,17.6846957 215.038345,21.6144348 C215.038345,22.6571304 214.794069,23.6477826 214.359586,24.5398261 C212.450759,28.6348261 205.072276,33.5707391 203.484966,34.1696957 Z" id="hart_logo" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

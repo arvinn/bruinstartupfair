@@ -1,4 +1,136 @@
 var sponsors = {
+  'startupucla': {
+    'name': 'StartupUCLA/Blackstone Launchpad',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': ['']
+                  },
+                  ],
+    'logo': './img/logo/startupucla.png',
+    'url': 'http://startupucla.com/'
+  },
+
+  'irobot': {
+    'name': 'iRobot Corporation',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': ['']
+                  },
+                  ],
+    'logo': './img/logo/irobot.png',
+    'url': 'http://irobot.com'
+  },
+
+  'microduino': {
+    'name': 'Microduino',
+    'description': "Microduino modules are easy-to-use electronic building blocks like super smart LEGOs. Simply stack them together to bring your ideas into reality.",
+    'positions': [
+                  {
+                     'position': 'Social Media intern',
+                     'details': ['Hiring year-round']
+                  },
+                  {
+                     'position': 'Sales/Marketing intern',
+                     'details': ['Hiring year-round']
+                  },
+                  {
+                     'position': 'Application Engineer intern',
+                     'details': ['Hiring year-round']
+                  },
+                  {
+                     'position': 'Technical Support Engineer intern',
+                     'details': ['Hiring year-round']
+                  },
+                  ],
+    'logo': './img/logo/microduino.png',
+    'url': 'https://www.microduino.cc'
+  },
+
+  'rivo': {
+    'name': 'Rivo',
+    'description': "Rivo is a mobile app you can use to find cool things to do now - catering to both your location and interests. The most comprehensive collection of calendars available is now all on one platform, connecting you with endless events and activities.",
+    'positions': [
+                  {
+                     'position': 'Community / Marketing Intern (Immediate, Ongoing)',
+                     'details': []
+                  },
+                  {
+                     'position': 'Software Engineering Intern (summer)',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/rivo.png',
+    'url': 'http://www.justrevel.com'
+  },
+
+
+  'hart': {
+    'name': 'Hart',
+    'description': "Hart is a medical software company utilizing technology to bridge the gap between patients and providers. Our health and fitness platform encourages users to engage with their health in real-time.",
+    'positions': [
+                  {
+                     'position': 'Software Engineers',
+                     'details': []
+                  },
+                  {
+                     'position': 'Data Engineers',
+                     'details': []
+                  },
+                  {
+                     'position': 'Mobile Engineers',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/hart.png',
+    'url': 'http://hart.com'
+  },
+
+
+  'stackcommerce': {
+    'name': '',
+    'description': "StackCommerce is the leading native commerce platform for online publishers, communities and brands. Since our inception, we've been powering commerce for companies across the web and are behind two unique brands: StackSocial and Citizen Goods.",
+    'positions': [
+                  {
+                     'position': 'Software Engineer',
+                     'details': ['Full-time'],
+                  },
+                  {
+                     'position': 'FrontEnd Engineer',
+                     'details': ['Full-time'],
+                  },
+                  {
+                     'position': 'Operations Coordinator',
+                     'details': ['Full-time'],
+                  },
+                  {
+                     'position': 'Account Associate',
+                     'details': ['Full-time'],
+                  },
+                  {
+                     'position': 'Sales Intern',
+                     'details': ['Summer'],
+                  },
+                  {
+                     'position': 'Customer Service Intern',
+                     'details': ['Summer'],
+                  },
+                  {
+                     'position': 'Operations Intern',
+                     'details': ['Summer'],
+                  },
+                  {
+                     'position': 'Business Development Intern',
+                     'details': ['Summer'],
+                  },
+                  ],
+    'logo': './img/logo/stackcommerce.svg',
+    'url': 'https://stackcommerce.com/'
+  },
+
 
   'rendermedia': {
     'name': 'Render Media',
@@ -41,11 +173,11 @@ var sponsors = {
 
   'shadowbid': {
     'name': 'Shadowbid',
-    'description': "",
+    'description': "Technology has made shopping online overwhelming. We aim to simplify the shopping experience by taking the guesswork and uncertainty out, while saving consumers money. We currently have a POC in alpha and are looking for develops to join the team.",
     'positions': [
                   {
-                     'position': '',
-                     'details': []
+                     'position': 'Software engineering intern',
+                     'details': ['Spring & Summer']
                   },
                   ],
     'logo': './img/logo/shadowbid.png',
@@ -53,11 +185,15 @@ var sponsors = {
   },
 
   'datascience': {
-    'name': 'DataScience',
-    'description': "",
+    'name': 'DataScience Inc',
+    'description': "We offer DataScience as a service and soon a data platform in order to help companies in areas like eCommerce, inventory planning, forecasting, etc. We are VC funded with $31M in financing. We have great company culture and fantastic team.",
     'positions': [
                   {
-                     'position': '',
+                     'position': 'Data Analyst Intern',
+                     'details': []
+                  },
+                  {
+                     'position': 'Marketing Intern',
                      'details': []
                   },
                   ],
@@ -93,10 +229,22 @@ var sponsors = {
 
   'aerserve': {
     'name': 'AerServ',
-    'description': "",
+    'description': "AerServ is a free mobile SSP and monetization platform that empowers mobile publishers with a superior technology platform, supercharges their ad revenue through mobile video, and supports them with unrivaled customer service for a triple-win.",
     'positions': [
                   {
-                     'position': '',
+                     'position': 'Software engineering',
+                     'details': []
+                  },
+                  {
+                     'position': 'Data analyst',
+                     'details': []
+                  },
+                  {
+                     'position': 'Business development',
+                     'details': []
+                  },
+                  {
+                     'position': 'Advertising operations',
                      'details': []
                   },
                   ],
@@ -106,13 +254,25 @@ var sponsors = {
 
   'tinder': {
     'name': 'Tinder',
-    'description': "",
+    'description': "The people we meet change our lives. A friend, a date, a romance, or even a chance encounter can change someone’s life forever. Tinder empowers users around the world to create new connections that otherwise might never have been possible.",
     'positions': [
-                  {
-                     'position': '',
-                     'details': []
-                  },
-                  ],
+          {
+             'position': 'Full-Time Engineer',
+             'details': ['Automation', 'Devops', 'Backend', 'Data', 'Full-Stack', 'Android', 'iOS']
+          },
+          {
+             'position': 'Full-Time Product Designer',
+             'details': []
+          },
+          {
+             'position': 'Intern Product Manager',
+             'details': []
+          },
+          {
+             'position': 'Intern Software Engineer',
+             'details': ['Android', 'iOS']
+          },
+    ],
     'logo': './img/logo/tinder.png',
     'url': 'http://www.tinder.com'
   },
@@ -230,7 +390,7 @@ var sponsors = {
   },
 
   'songabout': {
-    'name': 'Songabout.FM',
+    'name': '',
     'description': 'Songabout.FM provides a verified All-In-One platform portal for music artists to share their song meanings and in-studio video content of behind the scenes footage.',
     'positions': [
                  {
@@ -696,6 +856,11 @@ $(document).ready(function() {
   $('.navbar-sign-up').click(function(e) {
     var id = ($(this)[0].id);
     $('#sign-up-modal').modal('show');
+  });
+
+  $('#header-sign-up').click(function(e) {
+    $('#sign-up-modal').modal('show');
+    console.log('hi');
   });
 
 
