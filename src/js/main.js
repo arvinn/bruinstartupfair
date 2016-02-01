@@ -185,11 +185,15 @@ var sponsors = {
   },
 
   'datascience': {
-    'name': 'DataScience',
-    'description': "",
+    'name': 'DataScience Inc',
+    'description': "We offer DataScience as a service and soon a data platform in order to help companies in areas like eCommerce, inventory planning, forecasting, etc. We are VC funded with $31M in financing. We have great company culture and fantastic team.",
     'positions': [
                   {
-                     'position': '',
+                     'position': 'Data Analyst Intern',
+                     'details': []
+                  },
+                  {
+                     'position': 'Marketing Intern',
                      'details': []
                   },
                   ],
