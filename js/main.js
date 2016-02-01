@@ -211,7 +211,7 @@ var sponsors = {
                   },
                   ],
     'logo': './img/logo/goguardian.png',
-    'url': 'https://www.gogaurdian.com/'
+    'url': 'http://www.gogaurdian.com/'
   },
 
   'originate': {
