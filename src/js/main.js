@@ -1,4 +1,29 @@
 var sponsors = {
+  'dropin': {
+    'name': 'DropIn Inc',
+    'description': "DropIn is a new app that let's you see anything, anytime, anywhere. Think Uber meets FaceTime. Viewers choose a location and a nearby Droperator goes and begins a live-stream. Anyone with a smartphone can be a Droperator and earn easy money.",
+    'positions': [
+                  {
+                     'position': 'Software Engineer - Front End',
+                     'details': ['Full-time']
+                  },
+                  {
+                     'position': 'Software Engineer - Back End',
+                     'details': ['Full-time']
+                  },
+                  {
+                     'position': 'Software Engineer - Data Analysis and Machine Learning',
+                     'details': ['Full-time']
+                  },
+                  {
+                     'position': 'Software Developer in Test',
+                     'details': ['Full-time']
+                  },
+                  ],
+    'logo': './img/logo/dropin.png',
+    'url': 'http://www.armorway.com'
+  },
+
   'ariento': {
     'name': 'Ariento',
     'description': "",
