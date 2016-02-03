@@ -1,4 +1,17 @@
 var sponsors = {
+  'ariento': {
+    'name': 'Ariento',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': ['']
+                  },
+                  ],
+    'logo': './img/logo/ariento.jpg',
+    'url': ''
+  },
+
   'startupucla': {
     'name': 'StartupUCLA/Blackstone Launchpad',
     'description': "",
