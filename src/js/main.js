@@ -901,6 +901,7 @@ $(document).ready(function() {
   });
 
 
+  /*
   $('.navbar-sign-up').click(function(e) {
     var id = ($(this)[0].id);
     $('#sign-up-modal').modal('show');
@@ -910,6 +911,7 @@ $(document).ready(function() {
     $('#sign-up-modal').modal('show');
     console.log('hi');
   });
+  */
 
 
   $('#student-signup').click(function(e) {
