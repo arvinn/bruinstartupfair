@@ -34,6 +34,19 @@ var sponsors = {
     'url': ''
   },
 
+  'blackstone': {
+    'name': 'Blackstone Launchpad',
+    'description': "",
+    'positions': [
+                  {
+                     'position': '',
+                     'details': ['']
+                  },
+                  ],
+    'logo': './img/logo/blackstone.png',
+    'url': 'https://blackstonelaunchpad.org/'
+  },
+
   'startupucla': {
     'name': 'StartupUCLA/Blackstone Launchpad',
     'description': "",
