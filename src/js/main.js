@@ -10,7 +10,8 @@ var sponsors = {
                   {
                      'position': 'Programmers',
                      'details': ['Full-time', 'Part-time']
-                  }{
+                  },
+                  {
                      'position': 'Droperators',
                      'details': ['Full-time', 'Part-time']
                   },
