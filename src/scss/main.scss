@@ -187,6 +187,12 @@ $bfs-font-stack: Montserrat, sans-serif;
     color: white;
   }
 
+  h4 {
+    color: white;
+    font-family: $bfs-font-stack;
+    font-size: 1.2rem;
+  }
+
   #header-sign-up {
     width: 10rem;
     height: 4rem;
