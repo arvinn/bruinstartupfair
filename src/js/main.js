@@ -1,4 +1,29 @@
 var sponsors = {
+  'scorebig': {
+    'name': '',
+    'description': "ScoreBig.com is the leading savings destination for Sports, Music and Theater tickets. At ScoreBig, consumers name their own ticket price and save up to 60% below box office price on millions of tickets at thousands of top tier events.",
+    'positions': [
+                  {
+                     'position': 'Software Engineer in Test (SET)',
+                     'details': []
+                  },
+                  {
+                     'position': 'Software Engineer',
+                     'details': []
+                  },
+                  {
+                     'position': 'Customer Service Rep',
+                     'details': []
+                  },
+                  {
+                     'position': 'Partner Management Coordinator',
+                     'details': []
+                  },
+                  ],
+    'logo': './img/logo/scorebig.png',
+    'url': 'http://www.scorebig.com'
+  },
+
   'dropin': {
     'name': 'DropIn Inc',
     'description': "DropIn is a new app that let's you see anything, anytime, anywhere. Think Uber meets FaceTime. Viewers choose a location and a nearby Droperator goes and begins a live-stream. Anyone with a smartphone can be a Droperator and earn easy money.",
@@ -15,7 +40,6 @@ var sponsors = {
                      'position': 'Droperators',
                      'details': ['Full-time', 'Part-time']
                   },
-,
                   ],
     'logo': './img/logo/dropin.png',
     'url': 'http://www.dropininc.com/'
