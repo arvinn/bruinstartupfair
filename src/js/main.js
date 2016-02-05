@@ -135,7 +135,7 @@ var sponsors = {
                      'details': []
                   },
                   ],
-    'logo': './img/logo/rivo.png',
+    'logo': './img/logo/rivo.jpg',
     'url': 'http://www.justrevel.com'
   },
 
